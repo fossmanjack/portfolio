@@ -1,0 +1,17 @@
+$color-header: #ffe000;
+$color-text: #fff5aa;
+$color-background: #400000;
+
+$body-font: "Exo 2";
+$header-font: "Cintel";
+
+body {
+	color: $color-text;
+	font-family: $body-font;
+	background-color: $color-background;
+}
+
+h1, h2, h3 {
+	font-family: $header-font;
+	color: $color-header;
+}
