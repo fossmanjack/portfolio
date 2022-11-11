@@ -15,3 +15,12 @@ h1, h2, h3 {
 	font-family: $header-font;
 	color: $color-header;
 }
+
+.navbar-vc {
+	vertical-align: center;
+}
+
+.navbar-separator {
+	vertical-align: center;
+	color: $color-header;
+}

@@ -6,3 +6,10 @@ body {
 h1, h2, h3 {
   font-family: "Cinzel";
   color: #ffff80; }
+
+.navbar-vc {
+  vertical-align: center; }
+
+.navbar-separator {
+  vertical-align: center;
+  color: #ffff80; }
