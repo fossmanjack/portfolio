@@ -13,3 +13,7 @@ h1, h2, h3 {
 .navbar-separator {
   vertical-align: center;
   color: #ffff80; }
+
+.social-icon {
+  vertical-align: bottom;
+  color: #ffff80; }
