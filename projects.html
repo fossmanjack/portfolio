@@ -49,7 +49,7 @@
 						<a class='social-icon mx-1' href='mailto:info@jackmeyers.co'><i class='fa fa-envelope'></i></a>
 						<a class='social-icon mx-1' href='https://linkedin.com/in/fossmanjack' target='_blank'><i class='fa fa-linkedin'></i></a>
 						<a class='social-icon mx-1' href='https://github.com/fossmanjack' target='_blank'><i class='fa fa-github'></i></a>
-						<a class='social-icon mx-1' rel='me' href='https://tilde.zone/@fossmanjack' target='_blank'><i class='fa fa-mastodon'></i></a>
+						<a rel='me' href='https://tilde.zone/@fossmanjack' target='_blank' class='social-icon mx-1'><i class='fa fa-mastodon'></i></a>
 						<!--
 						<a class='social-icon ml-1' href='matrix:@jack:jackmeyers.co'><i class='fa-regular fa-comments'></i></a>
 						-->
@@ -63,32 +63,41 @@
 		<hr />
 		<!-- begin template -->
 		<div class='row'>
+
+			<!-- Description block -->
 			<div class='col-8'>
-				<div class='container'>
+				<div class='container-fluid p-0'>
 					<div class='row'>
 						<div class='col'>
-							<h3>Project Name</h3>
+							<a href='projects/anonchat' target='_blank'><h3>AnonChat</h3></a>
 						</div>
-						<div class='col'>
-							<p>Status: Framing</p>
+						<div class='col text-end'>
+							<h5><span class='status-line'>Status:</span> <span class='status-beta'>Beta</span></h5>
 						</div>
 					</div>
 					<div class='row'>
 						<div class='col'>
-							<p><i class='fa fa-arrow-right'></i>Tech 1, Tech 2, Tech 3</p>
+							<h5><i class='fa fa-arrow-right'></i> <span class='tech-line'>React, Node, Socket.IO, Express</span></h5>
 						</div>
+					</div>
 					<div class='row'>
 						<div class='col'>
-							<p>This is a description of the project, its goals, its challenges,
-							the technologies it uses.</p>
+							<p>AnonChat is a proof-of-concept IRC semi-clone, an anonymous messaging service
+							that uses websockets to connect to an Express server, which then forwards those
+							messages to other connected users.</p>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class='col'>
-				<h2>Images/carousel go here</h2>
+
+			<!-- Image/carousel block -->
+			<div class='col d-none d-md-block'>
+				<img src='img/placeholder.png' class='img-fluid' alt='placeholder image'>
 			</div>
+
 		</div>
+		<hr />
+
 		<!-- end template -->
 
 	</div>
@@ -100,7 +109,7 @@
 				<ul class='navbar-nav mx-auto'>
 					<li class='nav-item'>
 						<a class='nav-link' href='projects.html'>
-							<h3 class='d-none d-sm-inline'>Projects</h3>
+							<h3 class='d-inline'>Projects</h3>
 						</a>
 					</li>
 					<li class='nav-item navbar-separator px-4 my-auto'>
@@ -108,7 +117,7 @@
 					</li>
 					<li class='nav-item'>
 						<a class='nav-link' href='doc/jack-meyers-resume-2022-11.pdf' target='_blank'>
-							<h3 class='d-none d-sm-inline'>Resum&eacute;</h3>
+							<h3 class='d-inline'>Resum&eacute;</h3>
 						</a>
 					</li>
 					<li class='nav-item navbar-separator px-4 my-auto'>
@@ -116,7 +125,7 @@
 					</li>
 					<li class='nav-item'>
 						<a class='nav-link' href='#'>
-							<h3 class='d-none d-sm-inline'>Contact</h3>
+							<h3 class='d-inline'>Contact</h3>
 						</a>
 					</li>
 				</ul>

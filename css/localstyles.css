@@ -1,3 +1,18 @@
+a {
+  text-decoration: none; }
+
+a.link h1, a.link h2, a.link h3, a.visited h1, a.visited h2, a.visited h3 {
+  color: #ffff80; }
+
+a.link h4, a.link h5, a.link h6, a.link p, a.visited h4, a.visited h5, a.visited h6, a.visited p {
+  color: white; }
+
+a.hover h1, a.hover h2, a.hover h3, a.active h1, a.active h2, a.active h3 {
+  color: white; }
+
+a.hover h4, a.hover h5, a.hover h6, a.hover p, a.active h4, a.active h5, a.active h6, a.active p {
+  font-weight: bold; }
+
 body {
   color: #ffa5a5;
   font-family: "Exo 2";
@@ -5,6 +20,9 @@ body {
 
 h1, h2, h3 {
   font-family: "Cinzel";
+  color: #ffff80; }
+
+h4, h5, h6 {
   color: #ffff80; }
 
 .navbar-vc {
@@ -17,3 +35,12 @@ h1, h2, h3 {
 .social-icon {
   vertical-align: bottom;
   color: #ffff80; }
+
+.status-line {
+  vertical-align: bottom; }
+
+.status-beta {
+  color: 'white'; }
+
+.tech-line {
+  font-style: italic; }

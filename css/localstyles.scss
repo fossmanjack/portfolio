@@ -5,6 +5,29 @@ $color-background: #400000;
 $body-font: "Exo 2";
 $header-font: "Cinzel";
 
+a {
+	text-decoration: none;
+}
+
+a.link, a.visited {
+	h1, h2, h3 {
+		color: $color-header;
+	}
+	h4, h5, h6, p {
+		color: white;
+	}
+}
+
+a.hover, a.active {
+	h1, h2, h3 {
+		color: white;
+	}
+	h4, h5, h6, p {
+		font-weight: bold;
+	}
+}
+
+
 body {
 	color: $color-text;
 	font-family: $body-font;
@@ -13,6 +36,10 @@ body {
 
 h1, h2, h3 {
 	font-family: $header-font;
+	color: $color-header;
+}
+
+h4, h5, h6 {
 	color: $color-header;
 }
 
@@ -28,4 +55,16 @@ h1, h2, h3 {
 .social-icon {
 	vertical-align: bottom;
 	color: $color-header;
+}
+
+.status-line {
+	vertical-align: bottom;
+}
+
+.status-beta {
+	color: 'white';
+}
+
+.tech-line {
+	font-style: italic;
 }
